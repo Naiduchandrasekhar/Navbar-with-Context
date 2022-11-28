@@ -1,0 +1,75 @@
+/* Write your CSS here */
+
+.navBarContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.darkThemeClass {
+  background-color: #333333;
+}
+
+.lightThemeClass {
+  background-color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+  }
+}
+
+.homeAboutContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0px;
+  width: 130px;
+}
+
+.websiteLogo {
+  height: 45px;
+}
+
+.theme {
+  height: 30px;
+}
+
+.link {
+  font-size: 18px;
+  font-family: 'Roboto';
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.textDark {
+  color: #ffffff;
+}
+
+.textLight {
+  color: #171f46;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

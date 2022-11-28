@@ -1,0 +1,34 @@
+/* Write your CSS here */
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.backgroundBlack {
+  background-color: #000000;
+}
+
+.backgroundWhite {
+  background-color: #ffffff;
+}
+
+.home {
+  height: 150px;
+}
+
+.homeText {
+  font-family: 'Roboto';
+}
+
+.textDarkHead {
+  color: #ffffff;
+}
+
+.textLightHead {
+  color: #171f46;
+}

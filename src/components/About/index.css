@@ -1,0 +1,18 @@
+/* Write your CSS here */
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.about {
+  height: 150px;
+}
+
+.aboutText {
+  color: #171f46;
+  font-family: 'Roboto';
+}
